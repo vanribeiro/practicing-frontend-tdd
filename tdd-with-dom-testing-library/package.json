@@ -1,0 +1,23 @@
+{
+  "name": "tdd-with-dom-testing-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest --watchAll --testMatch **/js/**/*.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.21.5",
+    "@babel/preset-env": "^7.21.5",
+    "@testing-library/dom": "^9.2.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/user-event": "^14.4.3",
+    "babel-jest": "^29.5.0",
+    "jest": "^29.5.0",
+    "jest-environment-jsdom": "^29.5.0"
+  }
+}
