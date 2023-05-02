@@ -2,10 +2,10 @@
   "name": "tdd-with-dom-testing-library",
   "version": "1.0.0",
   "description": "",
-  "main": "js/index.js",
+  "main": "js/main.js",
   "type": "module",
   "scripts": {
-    "test": "jest --watchAll --testMatch **/js/**/*.test.js"
+    "test": "jest --verbose --watchAll --testMatch **/js/**/*.test.js --detectOpenHandles"
   },
   "keywords": [],
   "author": "",
