@@ -1,7 +1,7 @@
 module.exports = {
     clearMocks: true,
     testEnvironment: "node",
-    setupFilesAfterEnv: ['regenerator-runtime/runtime'],
+    setupFilesAfterEnv: ['./setupTests.js'],
     testPathIgnorePatterns: [
       "/node_modules/",
     ],
@@ -9,4 +9,4 @@ module.exports = {
        TextEncoder: require("util").TextEncoder,
        TextDecoder: require("util").TextDecoder
    }
-  };
+};
